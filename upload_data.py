@@ -1,9 +1,10 @@
+
 from pymongo.mongo_client import MongoClient
 import pandas as pd
 import json
 
 #url
-uri="mongodb+srv://kashish126112:Al35GtvlBOOaL9WK@kashish.s1o7z.mongodb.net/?retryWrites=true&w=majority&appName=Kashish"
+uri="mongodb+srv://kashish126112:RUCrO3BbYFonNUaM@kashish.s1o7z.mongodb.net/?retryWrites=true&w=majority&appName=Kashish"
 
 #create a new client and connectt to server
 client = MongoClient(uri)
